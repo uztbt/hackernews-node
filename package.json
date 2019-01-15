@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "global": "^4.3.2",
+    "graphql-yoga": "^1.16.9",
+    "jsonwebtoken": "^8.4.0",
+    "prisma": "^1.24.0",
+    "prisma-client-lib": "^1.24.0"
+  }
+}
